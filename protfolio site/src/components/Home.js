@@ -3,63 +3,124 @@ import React from 'react'
 const Home = () => {
     return (
         <div className='min-h-[100vh] bg-[#181818] w-full'>
-            <div className='min-w-fit md:min-w-min w-1/2 mx-auto'>
+            <div className="w-full sm:w-[67%] lg:w-[50%] min-h-[100vh] mx-auto">
                 <div className='w-[95%] mx-auto py-2'>
-                    <h1 className='text-base text-[#4C8D4C] font-extrabold'>KaranXidhu<span className='text-slate-300 text-sm'>:<span className='text-[#0096FF]'>~</span>$ cd ./<a href="/" className='font-thin text-[#7cafc2] underline p-1'>projects</a></span></h1>
+                    <h1 className='text-base sm:text-2xl text-[#4C8D4C] font-extrabold'>KaranXidhu<span className='text-slate-300 text-sm sm:text-base md:text-xl'>:<span className='text-[#0096FF]'>~</span>$ cd ./<a href="/" className='font-thin text-[#7cafc2] underline p-1'>projects</a></span></h1>
                 </div>
-                <div className='w-full bg-[#282828] p-3 pt-7 leading-4'>
-                    <span className='text-sm text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm font-bold text-slate-300'>$ neofetch</span>
-                    <p className='leading-3 pt-1 text-[#EE4B2B] font-bold text-sm'>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.-/+oossssoo+/-.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;karanxidhu<span className='text-slate-400'>@</span>karanxidhu<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`:+ssssssssssssssssss+:`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className='text-slate-300'>---------------------</span><br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-+ssssssssssssssssssyyssss+-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OS:<span className='text-slate-300'>&nbsp;Ubuntu&nbsp;22.10&nbsp;x86_64</span><br />
+                <div className="w-full min-h-[100vh] bg-[#282828] p-3">
+                    <div className="mt-4">
+                        <span className='text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ neofetch</span>
+                    </div>
+                    <div className="flex md:gap-10 justify-center items-center">
+                        <div className="">
+                            <p className='text-base leading-[0.9rem] md:leading-5 md:text-xl text-[#EE4B2B] font-bold'>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.-/+oossssoo+/-.<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`:+ssssssssssssssssss+:`<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-+ssssssssssssssssssyyssss+- <br />
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;.ossssssssssssssssss<span className='text-slate-300'>dMMMNy</span>sssso.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host:<span className='text-slate-300'>&nbsp;GF65&nbsp;Thin&nbsp;9SD&nbsp;REV:1.0</span><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;.ossssssssssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>dMMMNy</span>sssso.<br />
 
-                        &nbsp;&nbsp;&nbsp;/sssssssssss<span className='text-slate-300'>hdmmNNmmyNMMMMh</span>ssssss/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kernel:<span className='text-slate-300'>&nbsp;5.19.0-46-generic</span><br />
+                                &nbsp;&nbsp;&nbsp;/sssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hdmmNNmmyNMMMMh</span>ssssss/<br />
 
-                        &nbsp;&nbsp;+sssssssss<span className='text-slate-300'>hm</span>yd<span className='text-slate-300'>MMMMMMMNddddy</span>ssssssss+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uptime:<span className='text-slate-300'>&nbsp;3&nbsp;hours,&nbsp;17&nbsp;mins</span><br />
+                                &nbsp;&nbsp;+sssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hm</span>yd<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>MMMMMMMNddddy</span>ssssssss+<br />
 
-                        &nbsp;/ssssssss<span className='text-slate-300'>hNMMM</span>yh<span className='text-slate-300'>hyyyyhmNMMMNh</span>ssssssss/&nbsp;&nbsp;&nbsp;&nbsp;Packages:<span className='text-slate-300'>&nbsp;2771&nbsp;(dpkg),&nbsp;20&nbsp;(snap)</span><br />
+                                &nbsp;/ssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hNMMM</span>yhhyyyy<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hmNMMMNh</span>ssssssss/<br />
 
-                        .ssssssss<span className='text-slate-300'>dMMMNh</span>ssssssssss<span className='text-slate-300'>hNMMMd</span>ssssssss.&nbsp;&nbsp;&nbsp;Shell:<span className='text-slate-300'>&nbsp;bash&nbsp;5.2.2</span><br />
+                                .ssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>dMMMNh</span>ssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hNMMMd</span>ssssssss.<br />
 
-                        +ssss<span className='text-slate-300'>hhhyNMMNy</span>ssssssssssss<span className='text-slate-300'>yNMMMy</span>sssssss+&nbsp;&nbsp;&nbsp;Resolution:<span className='text-slate-300'>&nbsp;1920x1080</span><br />
+                                +ssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hhhyNMMNy</span>ssssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>yNMMMy</span>sssssss+<br />
 
-                        oss<span className='text-slate-300'>yNMMMNyMMh</span>ssssssssssssss<span className='text-slate-300'>hmmmh</span>ssssssso&nbsp;&nbsp;&nbsp;DE:<span className='text-slate-300'>&nbsp;GNOME&nbsp;43.1</span><br />
+                                oss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>yNMMMNyMMh</span>sssssssssssssshmmmhssssssso<br />
 
-                        oss<span className='text-slate-300'>yNMMMNyMMh</span>sssssssssssssshmmmhssssssso&nbsp;&nbsp;&nbsp;WM:<span className='text-slate-300'>&nbsp;Mutter</span><br />
+                                oss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>yNMMMNyMMh</span>ssssssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hmmmh</span>ssssssso<br />
 
-                        +ssss<span className='text-slate-300'>hhhyNMMNy</span>ssssssssssss<span className='text-slate-300'>yNMMMy</span>sssssss+&nbsp;&nbsp;&nbsp;WM&nbsp;Theme:<span className='text-slate-300'>&nbsp;Adwaita</span><br />
+                                +ssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hhhyNMMNy</span>ssssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>yNMMMy</span>sssssss+<br />
 
-                        .ssssssss<span className='text-slate-300'>dMMMNh</span>ssssssssss<span className='text-slate-300'>hNMMMd</span>ssssssss.&nbsp;&nbsp;&nbsp;Theme:<span className='text-slate-300'>&nbsp;WhiteSur-Dark&nbsp;[GTK2/3]</span><br />
+                                .ssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>dMMMNh</span>ssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hNMMMd</span>ssssssss.<br />
 
-                        &nbsp;/ssssssss<span className='text-slate-300'>hNMMM</span>yh<span className='text-slate-300'>hyyyyhdNMMMNh</span>ssssssss/&nbsp;&nbsp;&nbsp;&nbsp;Icons:<span className='text-slate-300'>&nbsp;Cupertino-Ventura&nbsp;[GTK2/3]</span><br />
+                                &nbsp;/ssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hNMMM</span>yh<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hyyyyhdNMMMNh</span>ssssssss/<br />
 
-                        &nbsp;&nbsp;+sssssssss<span className='text-slate-300'>dm</span>yd<span className='text-slate-300'>MMMMMMMMddddy</span>ssssssss+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terminal:<span className='text-slate-300'>&nbsp;gnome-terminal</span><br />
+                                &nbsp;&nbsp;+sssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>dm</span>yd<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>MMMMMMMMddddy</span>ssssssss+<br />
 
-                        &nbsp;&nbsp;&nbsp;/sssssssssss<span className='text-slate-300'>hdmNNNNmyNMMMMh</span>ssssss/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPU:<span className='text-slate-300'>&nbsp;Intel&nbsp;i5-9300H&nbsp;(8)&nbsp;@&nbsp;4.100GHz</span><br />
+                                &nbsp;&nbsp;&nbsp;/sssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>hdmNNNNmyNMMMMh</span>ssssss/<br />
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;.ossssssssssssssssss<span className='text-slate-300'>dMMMNy</span>sssso.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPU:<span className='text-slate-300'>&nbsp;NVIDIA&nbsp;GeForce&nbsp;GTX&nbsp;1660&nbsp;Ti&nbsp;Mobi</span><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;.ossssssssssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>dMMMNy</span>sssso.<br />
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-+sssssssssssssssss<span className='text-slate-300'>yyy</span>ssss+-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPU:<span className='text-slate-300'>&nbsp;Intel&nbsp;CoffeeLake-H&nbsp;GT2&nbsp;[UHD&nbsp;Gra</span><br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-+sssssssssssssssss<span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>yyy</span>ssss+-<br />
 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`:+ssssssssssssssssss+:`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Memory:<span className='text-slate-300'>&nbsp;4945MiB&nbsp;/&nbsp;15772MiB</span><br />
-                    </p>
-                    <div className="pt-7">
-                        <span className='text-sm text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm font-bold text-slate-300'>$ cd ./<span className='text-xl'>📜 Behind the Pixels 📜</span></span>
-                        <p className='w-[100%] p-2 text-sm font-bold text-slate-400'>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`:+ssssssssssssssssss+:`<br />
+                            </p>
+                        </div>
+                        <div className='overflow-hidden lg:visible invisible absolute lg:relative'>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                karanxidhu<span className='text-slate-300 hover:text-slate-400 transition dura                        <div>
+                            
+                            </div>tion-500 ease-in-out'>@</span>karanxidhu </p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'> ---------------------</span> </p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                OS: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Ubuntu 22.10 x86_64</span> </p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                Host: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>GF65 Thin 9SD REV:1.0</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                Kernel: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>5.19.0-46-generic</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                Uptime: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'> hours, 17 mins</span>3</p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                Packages: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>2771 (dpkg), 20 (snap)</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                Shell: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>bash 5.2.2</span> </p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                Resolution: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>1920x1080</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                DE: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>GNOME 43.1</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                                WM: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Mutter</span></p>
+                                <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            WM Theme: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Adwaita</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            Theme: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>WhiteSur-Dark [GTK2/3]</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            Icons: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Cupertino-Ventura [GTK2/3]</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            Terminal: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>gnome-terminal</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            CPU: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Intel i5-9300H (8) @ 4.100GHz</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            GPU: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>NVIDIA GeForce GTX 1660 Ti Mobi</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            GPU: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Intel CoffeeLake-H GT2 [UHD Gra</span></p>
+                            <p className='text-xl leading-5 text-[#EE4B2B] font-bold  whitespace-nowrap'>
+                            Memory: <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>4945MiB / 15772MiB</span></p>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div className="pt-16">
+                        <span className='text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ cat {">>"} <span className='text-base sm:text-3xl'>📜 Behind the Pixels 📜</span></span>
+                        <p className='w-[100%] p-2 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
                             👋 Hey there! I'm Karan, a student at TIET, where I'm pursuing my passion for Computer Science and Engineering. As a full-stack developer, I enjoy creating user-friendly solutions from start to finish. Lately, I've been diving into the world of machine learning, always eager to learn something new. What truly drives me is the joy of crafting innovative software and solutions. I believe in the power of simplicity and user-centered design. So, let's explore the digital realm together, one step at a time. Join me on this journey, and let's create meaningful tech experiences. 🌟</p>
 
                     </div>
-                    <div className="pt-7">
-                        <span className='text-sm text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm font-bold text-slate-300'>$ cd ./<span className='text-xl'>🌇 Unscripted Adventures 🌇</span></span>
-                        <p className='p-2 text-sm font-bold text-slate-400'>
-                            <span className="text-slate-300">Currently</span>, I proudly serve as the <span className="text-slate-300">tech head</span> at <a href="/" className='font-thin text-[#7cafc2] underline'> CONCEPTOU</a>, where I've taken on the responsibility of leading a dynamic team. This role has been a remarkable journey of growth, where I've not only honed my technical skills but also cultivated <span className="text-slate-300">leadership and teamwork</span>. Guiding and collaborating with my team members as we navigate the ever-evolving tech landscape has been an enriching experience, and I'm excited to continue charting our course to success.🚀 
-                        </p>
-                        <p className='p-2 text-sm font-bold text-slate-400'>
-                            As a <span className="text-slate-300">web developer</span> intern at <span className="text-slate-300"><a href="/" className='font-thin text-[#7cafc2] underline'> CONCEPTOU</a></span>, I had the opportunity to roll up my sleeves and bring digital concepts to life. I contributed to the development of engaging <span className="text-slate-300">websites</span> while simultaneously dipping my toes into the fascinating world of <span className="text-slate-300">machine learning</span>. This experience allowed me to bridge the gap between creative design and technical innovation, sparking my passion for both.🌐 </p>
+                    <div className="pt-10">
+                        <span className='text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ cat {">>"} <span className='text-base sm:text-3xl'>💬 The World Inside My Mind 💬</span></span>
+                        <p className='w-[100%] p-2 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
+                            One facet of my interests involves my fervor for exploring new <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>frameworks</span>, experimenting with novel <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>software</span>, and tinkering with <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>tools</span> that enhance the user experience. It's an exciting journey of discovery, seeking out the latest innovations and techniques that simplify and enrich the digital landscape. Moreover, my preference for <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Linux over Windows</span> isn't just a choice; it's a way of life. The lightweight, programming-friendly nature of Linux aligns perfectly with my tech-savvy aspirations. It's all about crafting a <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>seamless and efficient digital world</span>, one line of code at a time.👨‍💻</p>
+                        <p className='p-2 text-sm sm:text-base md:text-xl font-bold text-slate-400'>Another realm of fascination for me lies in the world of web development and machine learning. I've found my creative niche in utilizing the <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>MERN stack </span>to craft web applications that marry functionality with aesthetics. This stack, with its versatility and efficiency, has been the canvas for many of my digital endeavors. On the other side of the spectrum, <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Python</span>, with its <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>machine learning capabilities and computer vision prowess</span>, opens up the doors to innovation and problem-solving. It's a journey where I leverage technology to create solutions that make a meaningful impact, one project at a time.
 
+                            🚀</p>
+
+                    </div>
+                    <div className="pt-10">
+                        <span className='text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ cat {">>"} <span className='text-base sm:text-3xl'>🌇 Unscripted Adventures 🌇</span></span>
+                        <p className='p-2 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
+                            <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Currently</span>, I proudly serve as the <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>Tech Head</span> at <a href="/" className='font-thin text-[#7cafc2] underline'> CONCEPTOU</a>, where I've taken on the responsibility of leading a dynamic team. This role has been a remarkable journey of growth, where I've not only honed my technical skills but also cultivated <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>leadership and teamwork</span>. Guiding and collaborating with my team members as we navigate the ever-evolving tech landscape has been an enriching experience, and I'm excited to continue charting our course to success.🚀
+                        </p>
+                        <p className='p-2 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
+                            As a <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>web developer</span> intern at <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'><a href="/" className='font-thin text-[#7cafc2] underline'> CONCEPTOU</a></span>, I had the opportunity to roll up my sleeves and bring digital concepts to life. I contributed to the development of engaging <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>websites</span> while simultaneously dipping my toes into the fascinating world of <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>machine learning</span>. This experience allowed me to bridge the gap between creative design and technical innovation, sparking my passion for both.🌐 <span className='text-slate-300 hover:text-slate-400 transition duration-500 ease-in-out'>{"June,2023 - July,2023"} </span></p>
+
+
+                    </div>
                     </div>
                 </div>
             </div>
