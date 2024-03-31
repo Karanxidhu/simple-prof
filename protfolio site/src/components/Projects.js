@@ -15,10 +15,33 @@ const Projects = () => {
                     <h1 className='text-4xl text-slate-300 font-bold text-center py-4'>
                         Projects
                     </h1>
+                    <span className=' text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ dolphin<span className='text-base sm:text-3xl'> 📈Stocka📈</span></span>
+
+                    <p className='w-[100%] px-2 pt-4 pb-10 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
+                        📈 Introducing ReactNative Stocks - Your pocket-sized stock market companion! 📱💼
+
+                        Stay ahead of the curve with real-time market insights, including live stock prices, recent trends analysis, and comprehensive news coverage, all in one convenient app. Powered by <span className='text-slate-300'>React Native</span> for seamless mobile experience, with backend support from <span className='text-slate-300'>Node.js and Express.js</span>, ReactNative Stocks provides the tools you need to make informed investment decisions on the go. Download now and take control of your investments! 🚀📊📰
+                        <Link to="https://github.com/Karanxidhu/Stocka" target='_main' className='font-thin text-[#7cafc2] underline hover:text-[#5f8b9c]'>SOURCE</Link>
+                    </p>
+
+                    <span className=' text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ dolphin<span className='text-base sm:text-3xl'> 🌓pdf-night-viewer🌓</span></span>
+
+                    <p className='w-[100%] px-2 pt-4 pb-10 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
+                       🌓 Introducing PDF Dark Mode - Your handy Chrome extension for transforming PDFs into eye-friendly dark mode! 📄💻 Experience reading PDFs like never before with our seamless <span className='text-slate-300'>JavaScript-powered</span> extension. It automatically detects <span className='text-slate-300'>PDFs</span> and converts them into a soothing dark mode, perfect for late-night reading or reducing eye strain. Install PDF Dark Mode today from the Chrome Web Store and upgrade your PDF reading experience instantly! ✨🌙📚
+                        <Link to="https://github.com/Karanxidhu/pdf-night-viewer" target='_main' className='font-thin text-[#7cafc2] underline hover:text-[#5f8b9c]'>SOURCE</Link>
+                    </p>
+                    <span className=' text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ dolphin<span className='text-base sm:text-3xl'> 👁️‍🗨️CCTV-telebot👁️‍🗨️</span></span>
+
+                    <p className='w-[100%] px-2 pt-4 pb-10 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
+                       
+                      Our project relies on a potent combination of OpenCV and Python for real-time human detection. OpenCV's efficiency and versatility enable precise analysis of video streams, while <span className='text-slate-300'>Python</span> provides flexibility and ease of integration. Leveraging Telegram for instant alerts ensures swift notifications of detected <span className='text-slate-300'>human activity</span>. This streamlined tech stack delivers a robust solution for enhanced surveillance and security. 💻👁️‍🗨️🔒"
+                        <Link to="https://github.com/Karanxidhu/CCTV-telebot" target='_main' className='font-thin text-[#7cafc2] underline hover:text-[#5f8b9c]'>SOURCE</Link>
+                    </p>
+
                     <span className='text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ dolphin<span className='text-base sm:text-3xl'> 🛒ShopSlur🛒</span></span>
                     <p className='w-[100%] px-2 pt-4 pb-10 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
                         ShopSlur, our cutting-edge <span className='text-slate-300'>MERN</span> stack web application, redefines the <span className='text-slate-300'>online marketplace</span>. With ShopSlur, you can seamlessly publish your products for <span className='text-slate-300'>sale and make secure purchases</span>, all while we meticulously safeguard every transaction. Our platform offers an intuitive user experience, combining sleek design with state-of-the-art security measures. Trust and safety are our top priorities, making ShopSlur your go-to destination for listing, discovering, and purchasing products with ease.🔒🛍️🌐
-                        <Link to="https://github.com/Karanxidhu/shopslur-refined/" target='_main' className='font-thin text-[#7cafc2] underline hover:text-[#5f8b9c]'>SOURCE</Link>
+                        <Link to="https://github.com/Karanxidhu/shop-slur" target='_main' className='font-thin text-[#7cafc2] underline hover:text-[#5f8b9c]'>SOURCE</Link>
                     </p>
                     <span className=' text-sm sm:text-base md:text-xl text-[#4C8D4C] font-bold'>KaranXidhu</span><span className='text-slate-300 text-sm sm:text-base md:text-xl font-bold'>:</span><span className='text-[#0096FF]'>~</span><span className='text-sm sm:text-base md:text-xl font-bold text-slate-300'>$ dolphin<span className='text-base sm:text-3xl'> 🐶Dog Breed Prediction🐶</span></span>
                     <p className='w-[100%] px-2 py-4 text-sm sm:text-base md:text-xl font-bold text-slate-400'>
